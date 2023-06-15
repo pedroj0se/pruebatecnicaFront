@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "AppDesarrolloTecnico",
+    "slug": "AppDesarrolloTecnico",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/fondo.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  },
+  "extra" :{
+    "firebaseApiKey": "your_firebase_api_key",
+    "firebaseAuthDomain": "your_firebase_auth_domain",
+    "firebaseProjectId": "your_firebase_project_id",
+    "firebaseStorageBucket": "your_firebase_storage_bucket",
+    "firebaseMessagingSenderId": "your_firebase_messaging_sender_id",
+    "firebaseAppId": "your_firebase_app_id"
+}
+}
